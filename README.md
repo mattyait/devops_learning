@@ -65,76 +65,16 @@ To become a Devops  or setting the DevOps process, you must have handson experie
 
 - **Step 2:** Learn about source version control tool
 
-    > Git Learning
+    >[Git Learning](../git/README)
 
-Step 3: Practice what you have learnt
+- **Step 4:** Learn Package Manager
 
-Step 4: Learn Package Manager
+- **Step 5:** Learn about Unit Testing
 
-Step 5: Learn about Unit Testing
+- **Step 6:** Learn about databases (RDBMS & NoSQL)
 
-Step 6: Learn about databases (RDBMS & NoSQL)
+- **Step 12:** Learn how to use Docker
 
-Step 7: Learn frameworks
+- **Step 13:** Knowledge of Web Servers
 
-Step 8: Learn how to implement caching
-
-Redis
-Memcached
-Step 9: Creating RESTful APIs
-
-Step 10: Learn about different Authentication/Authorization methods
-
-Step 11: Understand Message Brokers
-
-NSQ
-Kafka
-RabbitMQ
-ZeroMQ
-Step 12: Learn how to use Docker
-
-Step 13: Knowledge of Web Servers
-
-Step 14: Learn how to test service
-
-Test API
-Test Performance
-Test Security
-Test Automation
-Step 15: Learn different protocols
-
-TCP/UDP
-Web Socket
-AMQP
-MQTT
-Protocol Buffers
-gRPC
-Step 16: Learn Microservice, Event Driven, Lambda architectures
-
-Step 17: Learn Big Data technologies/tools
-
-Step 18: Learn algorithms
-
-Reference: https://github.com/TheAlgorithms/Python
-
-Step 19: Learn AI technologies
-
-Step 20: Learn configuration/deployment services
-
-Step 21: Learn how to monitor services
-
-Step 22: Use open source tools
-
-Mock REST APIs: https://github.com/typicode/json-server
-
-UML Designer: https://www.modelio.org
-
-Planning: https://wiki.gnome.org/Apps/Planner
-
-MindMap: MindMaple Lite
-
-UI Wireframe: Pencil (https://pencil.evolus.vn), Balsamiq
-
-SSH clients for Windows: SuperPuTTY
-
-Step 23: Keep exploring
+- **Step 15:** Learn different protocols
