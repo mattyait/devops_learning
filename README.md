@@ -65,7 +65,7 @@ To become a Devops  or setting the DevOps process, you must have handson experie
 
 - **Step 2:** Learn about source version control tool
 
-    >[Git Learning](../git/README)
+    >[Git Learning](../git/master/README)
 
 - **Step 4:** Learn Package Manager
 
