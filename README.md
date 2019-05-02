@@ -57,7 +57,9 @@ There are various tools which can be learn and use to Implement the devops proce
 > Pagerduty, Sqaudcast, opsgenie
 
 ## DevOps Learning Roadmap
-To become a Devops  or setting the DevOps process, you must have handson experience on atleast one tool from each section of DevOps Toolchain.
+To become a Devops  or setting the DevOps process, you must have handson experience on atleast one tool from each section of above DevOps Toolchain.
+Also follow the below path to get the knowledge on all aspects to become a DevOps.
+
 
 - **Step 1:** Learn a basic programming language
     
