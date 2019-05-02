@@ -77,6 +77,14 @@ Also follow the below path to get the knowledge on all aspects to become a DevOp
 
 - **Step 12:** Learn how to use Docker
 
-- **Step 13:** Knowledge of Web Servers
+- **Step 13:** Learn about kubernetes
+
+    >[Kubernetes](https://github.com/mattyait/devops_learning/blob/master/kubernetes/README.md)
+
+- **Step 14:** Knowledge of Web Servers
 
 - **Step 15:** Learn different protocols
+
+- **Step 16:** Configuration tool
+
+    >[Configuration Tool](https://github.com/mattyait/devops_learning/blob/master/ConfigurationTool/README.md)
