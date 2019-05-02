@@ -3,7 +3,7 @@ Kubernetes is an open source container orchestration engine for automating deplo
 
 # Kubernetes Arch
 
-![KubernetesArch](./docs/images/kubernetes_arc.jpg)
+![KubernetesArch](../docs/images/kubernetes_arc.jpg)
 
 ## UI
 You can use Dashboard to deploy containerized applications to a Kubernetes cluster, 
