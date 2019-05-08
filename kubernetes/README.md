@@ -39,3 +39,19 @@ The master can also be replicated for availability and redundancy.
 ## Kubernetes Nodes
 The nodes in a cluster are the machines (VMs, physical servers, etc) that run your applications and cloud workflows. 
 The Kubernetes master controls each node; you’ll rarely interact with nodes directly.
+
+## Create EKS on AWS
+aws eks create-cluster --name eksdemo --role-arn <eksRole> --resources-vpc-config subnetIds=<subnets>,securityGroupIds=<securityGrps>
+
+## Create kubeconfig file
+aws eks --region region update-kubeconfig --name cluster_name
+
+## Install kubectl
+install kubectl
+curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
+chmod +x ./kubectl
+sudo mv ./kubectl /usr/local/bin/kubectl
+
+## test configuration
+kubectl get svc
+  
