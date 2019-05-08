@@ -41,17 +41,21 @@ The nodes in a cluster are the machines (VMs, physical servers, etc) that run yo
 The Kubernetes master controls each node; you’ll rarely interact with nodes directly.
 
 ## Create EKS on AWS
-aws eks create-cluster --name eksdemo --role-arn <eksRole> --resources-vpc-config subnetIds=<subnets>,securityGroupIds=<securityGrps>
+
+    aws eks create-cluster --name eksdemo --role-arn <eksRole> --resources-vpc-config subnetIds=<subnets>,securityGroupIds=<securityGrps>
+    aws eks --region ap-southeast-2 create-cluster --name test --role-arn arn:aws:iam::123456789:role/aws_eks_role --resources-vpc-config subnetIds=subnet-bc61f1d8,subnet-a611a9d0,subnet-f2a100ab,securityGroupIds=sg-9279b4f5
 
 ## Create kubeconfig file
-aws eks --region region update-kubeconfig --name cluster_name
+    aws eks --region region update-kubeconfig --name cluster_name
 
 ## Install kubectl
 install kubectl
-curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
-chmod +x ./kubectl
-sudo mv ./kubectl /usr/local/bin/kubectl
+
+    curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
+    chmod +x ./kubectl
+    sudo mv ./kubectl /usr/local/bin/kubectl
 
 ## test configuration
-kubectl get svc
+
+    kubectl get svc
   
