@@ -40,14 +40,6 @@ The master can also be replicated for availability and redundancy.
 The nodes in a cluster are the machines (VMs, physical servers, etc) that run your applications and cloud workflows. 
 The Kubernetes master controls each node; you’ll rarely interact with nodes directly.
 
-## Create EKS on AWS
-
-    aws eks create-cluster --name eksdemo --role-arn <eksRole> --resources-vpc-config subnetIds=<subnets>,securityGroupIds=<securityGrps>
-    aws eks --region ap-southeast-2 create-cluster --name test --role-arn arn:aws:iam::123456789:role/aws_eks_role --resources-vpc-config subnetIds=subnet-bc61f1d8,subnet-a611a9d0,subnet-f2a100ab,securityGroupIds=sg-9279b4f5
-
-## Create kubeconfig file
-    aws eks --region region update-kubeconfig --name cluster_name
-
 ## Install kubectl
 - install kubectl
 
@@ -58,6 +50,15 @@ The Kubernetes master controls each node; you’ll rarely interact with nodes di
 - Install aws-iam-authenticator
 
         curl -o aws-iam-authenticator https://amazon-eks.s3-us-west-2.amazonaws.com/1.12.7/2019-03-27/bin/linux/amd64/aws-iam-authenticator
+
+## Create EKS on AWS
+
+    aws eks create-cluster --name eksdemo --role-arn <eksRole> --resources-vpc-config subnetIds=<subnets>,securityGroupIds=<securityGrps>
+    aws eks --region ap-southeast-2 create-cluster --name test --role-arn arn:aws:iam::123456789:role/aws_eks_role --resources-vpc-config subnetIds=subnet-bc61f1d8,subnet-a611a9d0,subnet-f2a100ab,securityGroupIds=sg-9279b4f5
+
+## Create kubeconfig file
+    aws eks --region region update-kubeconfig --name cluster_name
+    
 ## test configuration
 
     kubectl get svc
