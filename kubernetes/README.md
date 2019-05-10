@@ -62,4 +62,9 @@ The Kubernetes master controls each node; you’ll rarely interact with nodes di
 ## test configuration
 
     kubectl get svc
+    
+## To enable worker nodes to join your cluster
+Use the following command to download the AWS IAM Authenticator configuration map and replace the <ARN of instance role (not instance profile)> snippet with the NodeInstanceRole value:
+
+    curl -o aws-auth-cm.yaml https://amazon-eks.s3-us-west-2.amazonaws.com/cloudformation/2019-02-11/aws-auth-cm.yaml
   
