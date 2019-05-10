@@ -67,4 +67,12 @@ The Kubernetes master controls each node; you’ll rarely interact with nodes di
 Use the following command to download the AWS IAM Authenticator configuration map and replace the <ARN of instance role (not instance profile)> snippet with the NodeInstanceRole value:
 
     curl -o aws-auth-cm.yaml https://amazon-eks.s3-us-west-2.amazonaws.com/cloudformation/2019-02-11/aws-auth-cm.yaml
+
+Apply the configuration. This command may take a few minutes to finish.
+
+    kubectl apply -f aws-auth-cm.yaml
+
+Once node registered to the cluster, use below command to validate the nodes
+
+    kubectl get nodes --watch
   
