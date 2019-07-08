@@ -59,6 +59,9 @@ The Kubernetes master controls each node; you’ll rarely interact with nodes di
 ## Create kubeconfig file
     aws eks --region region update-kubeconfig --name cluster_name
     
+## For manually configuring the kubeconfig file, just need to set the environment variable with kubeconfig file as below
+        export KUBECONFIG=$KUBECONFIG:/.kube/kubeconfig_eks_cluster
+        
 ## test configuration
 
     kubectl get svc
