@@ -78,6 +78,8 @@ Apply the configuration. This command may take a few minutes to finish.
 Once node registered to the cluster, use below command to validate the nodes
 
     kubectl get nodes --watch
+
+Deploy a sample application to kubernetes by referring https://docs.aws.amazon.com/eks/latest/userguide/eks-guestbook.html
   
 Delete all services and pods running in kubernetes
 
