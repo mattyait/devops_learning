@@ -79,3 +79,8 @@ Once node registered to the cluster, use below command to validate the nodes
 
     kubectl get nodes --watch
   
+Delete all services and pods running in kubernetes
+
+    kubectl delete svc --all
+    kubectl delete pods --all
+    
