@@ -80,7 +80,11 @@ Once node registered to the cluster, use below command to validate the nodes
     kubectl get nodes --watch
 
 Deploy a sample application to kubernetes by referring https://docs.aws.amazon.com/eks/latest/userguide/eks-guestbook.html
-  
+
+To scale the deployemnt just need to use scale option with replica count
+        
+        kubectl scale deployment <deployment_name> --replicas=3
+        
 Delete all services and pods running in kubernetes
 
     kubectl delete svc --all
