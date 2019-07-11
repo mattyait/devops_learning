@@ -92,4 +92,4 @@ Delete all services and pods running in kubernetes
 
 ## Refer the kubernetes deployment and service example
 
-    >[examples](https://github.com/mattyait/devops_learning/blob/master/kubernetes/example.md)
+    [examples](https://github.com/mattyait/devops_learning/blob/master/kubernetes/example.md)
