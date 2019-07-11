@@ -68,3 +68,14 @@
           value: "Hello variable1"
         - name: ENV_VARIABLE2
           value: "Hello variable2"
+
+## Service with internal loadbalancer
+
+    [...]
+    metadata:
+        name: my-service
+        annotations:
+            service.beta.kubernetes.io/aws-load-balancer-internal: 0.0.0.0/0
+    spec:
+      type: LoadBalancer        
+    [...]
