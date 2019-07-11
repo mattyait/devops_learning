@@ -89,58 +89,7 @@ Delete all services and pods running in kubernetes
 
     kubectl delete svc --all
     kubectl delete pods --all
-    
-Kubernetes Sample deployment file with explanation
 
-        apiVersion: apps/v1             
-        kind: Deployment           
-        metadata:                        
-          name: app-name
-          labels:
-            app: app-name
-          namespace: default
-        spec:
-          replicas: 1
-          selector:
-            matchLabels:
-              app: app-name
-          strategy:
-            rollingUpdate:
-              maxSurge: 25%
-              maxUnavailable: 25%
-            type: RollingUpdate
-          template:
-            metadata:
-              labels:
-                app: app-name
-            spec:
-              containers:
-              - image: <image-name-with-path>
-                imagePullPolicy: Always
-                name: app-name
-                ports:
-                - containerPort: 80
-                  protocol: TCP
+## Refer the kubernetes deployment and service example
 
-Kubernetes Service file sample
-
-        apiVersion: v1
-        kind: Service
-        metadata:
-          name: app-name
-          labels:
-            app: app-name
-          annotations:
-            service.beta.kubernetes.io/aws-load-balancer-additional-resource-tags: "Name=app-name,environment=env"    
-        spec:
-          type: LoadBalancer
-          selector:
-            app: app-name
-          ports:
-          - port: 80
-            name: http
-            targetPort: 80
-          - port: 443
-            name: https
-            targetPort: 80
-  
+    >[examples](https://github.com/mattyait/devops_learning/blob/master/kubernetes/example.md)
