@@ -13,7 +13,15 @@ Install git on the system and Check your Git version with the following command,
 You can initialize your current working directory as a Git repository with init command.
     
     git init
-    
+
+Type `git add` to add all of the relevant files.
+Type `git commit`
+
+Add the Git upstream by using the repository URL and push the changes to repository (make sure repo is created before pushing the changes)
+
+    git remote add origin https://www.github.com/username/repo-name
+    git push -u origin master
+
 To copy an existing Git repository hosted remotely by cloning using the repo URL ( Using username and password)
 
     git clone https://www.github.com/username/repo-name
@@ -26,9 +34,7 @@ Show your current Git directory’s remote repository with verbosity by using -v
 
     git remote -v
     
-Add the Git upstream by using the repository URL
 
-    git remote add upstream https://www.github.com/username/repo-name
     
 ## Staging
 
