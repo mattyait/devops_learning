@@ -75,6 +75,10 @@ Apply the configuration. This command may take a few minutes to finish.
 
     kubectl apply -f aws-auth-cm.yaml
 
+Check to see if you have already applied the aws-auth ConfigMap.
+
+    kubectl describe configmap -n kube-system aws-auth
+
 Once node registered to the cluster, use below command to validate the nodes
 
     kubectl get nodes --watch
