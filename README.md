@@ -88,6 +88,3 @@ Also follow the below path to get the knowledge on all aspects to become a DevOp
 - **Step 16:** Configuration tool
 
     >[Configuration Tool](https://github.com/mattyait/devops_learning/blob/master/ConfigurationTool/README.md)
-
-# Test changes in new branch
-# Test
