@@ -11,7 +11,7 @@ Different statment for devops you must have heard from various people.
 - Devops is Cloud usage.
 - Devops is Infrastructure as a code.
 - Devops is agile.
-    
+
 > DevOps is a process which changes the way of people work together with the right mindset to embracce the culture to colloborate with each other, automating the continous delivery of software feautures, with the rigour and discipline of continous integration and a passion for continous testing, while using the power of standardised tooling to continously monitor everything being done from infrastrcute to actual production environment.
 
 ## How Devops is related to development and operation?
@@ -62,7 +62,7 @@ Also follow the below path to get the knowledge on all aspects to become a DevOp
 
 
 - **Step 1:** Learn a basic programming language
-    
+
     > Python, Ruby, Shell Script
 
 - **Step 2:** Learn about source version control tool
@@ -88,3 +88,5 @@ Also follow the below path to get the knowledge on all aspects to become a DevOp
 - **Step 16:** Configuration tool
 
     >[Configuration Tool](https://github.com/mattyait/devops_learning/blob/master/ConfigurationTool/README.md)
+
+# Test changes in new branch
